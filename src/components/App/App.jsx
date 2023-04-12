@@ -15,6 +15,10 @@ class App extends Component {
     }));
   };
 
+  countTotalFeedback = ([ good, bad, neutral ] = this.state) => {
+    return this.state.lenght;
+  }
+
   render() {
     const {good, neutral, bad} = this.state;
     return (
@@ -25,6 +29,7 @@ class App extends Component {
             onLeaveFeedback={this.onLeaveFeedback}
           />
         <Statistics good={good} neutral={neutral} bad={bad} />
+      <div><span>Total: countTotalFeedback()</span></div>
       </div>
     );
   }
