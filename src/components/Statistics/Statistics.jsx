@@ -13,7 +13,7 @@ import PropTypes from 'prop-types';
       <li>Neutral: {neutral}</li>
       <li>Bad: {bad}</li>
       <li>Total: {total}</li>
-      <li>PositivePercentage: {positivePercentage}</li>
+      <li>PositivePercentage: {positivePercentage}%</li>
     </ul>
   );
 };
