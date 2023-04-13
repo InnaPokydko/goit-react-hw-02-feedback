@@ -2,12 +2,12 @@ import styled from "@emotion/styled";
 
 export const BtnContainer = styled.div`
 display: flex;
-  gap: 20px;
+  gap: 30px;
   justify-content: center;
   align-items: center;`;
 
   export const Button = styled.button`
-  margin: 10px;
+  margin: 20px;
     height: 50px;
     width: 100px;
     color: #e2ebf0;
