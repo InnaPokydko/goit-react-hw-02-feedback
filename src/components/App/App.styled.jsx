@@ -11,10 +11,11 @@ left: 100px;
   align-items: center;
   gap: 60px;
   padding: 50px;
-  background-image: linear-gradient(#FCFFD9FF 0%, #FCFFD9 100%);
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  // background-image: linear-gradient(-225deg, #7DE2FC 0%, #B9B6E5 100%);
 `
 
 export const Title = styled.h1`
 font-family: 'Schibsted Grotesk', sans-serif;
-color: #444b57;
+color: #6713d2;
 `
