@@ -15,7 +15,3 @@ left: 100px;
   // background-image: linear-gradient(-225deg, #7DE2FC 0%, #B9B6E5 100%);
 `
 
-export const Title = styled.h1`
-font-family: 'Schibsted Grotesk', sans-serif;
-color: #6713d2;
-`

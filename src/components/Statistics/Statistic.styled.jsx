@@ -3,8 +3,7 @@ import styled from "@emotion/styled";
 export const StatEvent = styled.ul`
 display: flex;
   flex-direction: column;
- 
-  align-items: center;
+   align-items: center;
   gap: 15px;
   padding: 5px;
 font-family: 'Schibsted Grotesk', sans-serif;
